@@ -54,6 +54,24 @@ Before you can run the node, make sure you have the following installed:
     mv ~/catkin_ws/map.yaml ~/
     ```
 
+7. **Update the move_base.launch**
+
+     Open the terminal and type:
+    ```bash
+       roscd turtlebot3_navigation/
+       cd launch/
+    ```
+     Now update the move_base.launch file by adding the paramater for our Global Planner
+    
+     ```bash
+      <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+         <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+         <!-- If you don't put this line, turtlebot will use the default global planner -->
+    
+         <!-- Other parameters  -->
+      </node>
+    ```
+
 ## Launching Autonomous Navigation Nodes Using Custom Global Planner
 
 To run the node, use the following command:
