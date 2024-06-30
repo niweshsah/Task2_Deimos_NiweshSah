@@ -305,7 +305,7 @@ The modified BFS algorithm used for the global planner is designed to efficientl
 
 ## Demo Video
 
-Refer to this [video](https://youtu.be/y3TqNdaqOh4).
+Refer to this [video](https://youtu.be/gz6GUQ0oo8Q).
 
 **Recommended:** Watch this at 2x.
 
@@ -314,3 +314,5 @@ Refer to this [video](https://youtu.be/y3TqNdaqOh4).
 1. https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 2. https://gazebosim.org/docs
 3. https://wiki.ros.org/Documentation
+4. https://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS
+5. https://medium.com/omarelgabrys-blog/path-finding-algorithms-f65a8902eb40
