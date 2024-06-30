@@ -285,8 +285,14 @@ The modified BFS algorithm used for the global planner is designed to efficientl
      Follow the steps given above to do the autonomous navigation using your custom global planner.
 
 
-Include information about the licensing of your project.
+## Demo Video
 
----
+Refer to this [video](https://youtu.be/y3TqNdaqOh4).
 
-Feel free to modify this template according to your specific requirements and ensure all details relevant to your setup are included.
+**Recommended:** Watch this at 2x.
+
+## Resources Used
+
+1. https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
+2. https://gazebosim.org/docs
+3. https://wiki.ros.org/Documentation
